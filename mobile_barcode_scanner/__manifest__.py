@@ -5,8 +5,6 @@
     'summary': 'Scan barcodes and QR codes from phone camera on any page',
     'depends': ['web'],
     'depends': ['base'],
-    'price': 9.99,
-    'currency': 'EUR',
     'author': 'Servertronix',      # ← ваше имя или название компании
     'data': [],
     'qweb': [],
