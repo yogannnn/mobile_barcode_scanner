@@ -4,6 +4,8 @@
     'category': 'Tools',
     'summary': 'Scan barcodes and QR codes from phone camera on any page',
     'depends': ['web'],
+    'price': 9.99,
+    'currency': 'EUR',
     'data': [],
     'qweb': [],
     'assets': {
