@@ -5,6 +5,7 @@
     'summary': 'Scan barcodes and QR codes from phone camera on any page',
     'depends': ['web'],
     'author': 'Servertronix',      # ← ваше имя или название компании
+    'website': 'https://github.com/yogannnn',  # ← опциональная ссылка на профиль/сайт
     'data': [],
     'qweb': [],
     'assets': {
