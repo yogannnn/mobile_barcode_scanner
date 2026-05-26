@@ -7,6 +7,8 @@
     'depends': ['base'],
     'price': 9.99,
     'currency': 'EUR',
+    'author': 'Servertronix',      # ← ваше имя или название компании
+    'website': 'https://github.com/yogannnn',  # ← опциональная ссылка на профиль/сайт
     'data': [],
     'qweb': [],
     'assets': {
