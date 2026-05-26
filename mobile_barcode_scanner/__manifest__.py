@@ -6,6 +6,7 @@
     'depends': ['web'],
     'price': 9.99,
     'currency': 'EUR',
+    'author': 'Servertronix',      # ← ваше имя или название компании
     'data': [],
     'qweb': [],
     'assets': {
