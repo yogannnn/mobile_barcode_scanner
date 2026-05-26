@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Mobile Barcode Scanner - Odoo Module</title>
+</head>
+<body>
+    <h1>Mobile Barcode Scanner</h1>
+    <p>This module adds a floating camera button on all backend pages. When clicked, it opens a QR/barcode scanner using the device's camera (mobile or desktop). Scanned codes are inserted into the currently focused input field.</p>
+
+    <h2>Features</h2>
+    <ul>
+        <li>Floating button (📷) appears on every page – no need to navigate to a special screen.</li>
+        <li>Works on mobile phones (Android, iOS) and desktop computers with a webcam.</li>
+        <li>Supports both QR codes and 1D barcodes (EAN-13, Code 128, etc.).</li>
+        <li>Scanned value is automatically inserted into the active text field (input or textarea).</li>
+        <li>If no field is focused, the module saves the scanned code and prompts to click into any field to paste it.</li>
+        <li>Uses the lightweight <a href="https://github.com/mebjas/html5-qrcode">html5-qrcode</a> library.</li>
+    </ul>
+
+    <h2>Screenshots</h2>
+    <img src="02.jpg" alt="Scanner button and scanner view" style="width:20%; max-width:200px; border:1px solid #ccc; margin-bottom:20px;"><img src="03.jpg" alt="Scanner button and scanner view" style="width:20%; max-width:200px; border:1px solid #ccc; margin-bottom:20px;"><img src="04.jpg" alt="Scanner button and scanner view" style="width:20%; max-width:200px; border:1px solid #ccc; margin-bottom:20px;"><img src="05.jpg" alt="Scanner button and scanner view" style="width:20%; max-width:200px; border:1px solid #ccc; margin-bottom:20px;"><img src="06.jpg" alt="Scanner button and scanner view" style="width:20%; max-width:200px; border:1px solid #ccc; margin-bottom:20px;"><img src="07.jpg" alt="Scanner button and scanner view" style="width:20%; max-width:200px; border:1px solid #ccc; margin-bottom:20px;">
+
+    <h2>Usage</h2>
+    <ol>
+        <li>Install the module.</li>
+        <li>Click on any text field (e.g., search bar, product barcode field, quantity field).</li>
+        <li>Tap the floating camera button (bottom‑right).</li>
+        <li>Grant camera permission when prompted.</li>
+        <li>Point the camera at a QR or barcode.</li>
+        <li>The scanned text will appear in the previously focused field.</li>
+    </ol>
+
+    <h2>Technical details</h2>
+    <p>The module adds a custom JavaScript asset that injects the button and scanner overlay. No extra Python code is required. Tested with Odoo 18 Community Edition.</p>
+
+    <h2>Support</h2>
+    <p>For issues or suggestions, please contact: yogannnn@gmail.com</p>
+</body>
+</html>
