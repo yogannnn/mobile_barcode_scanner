@@ -15,7 +15,7 @@
             'mobile_barcode_scanner/static/src/js/barcode_scanner.js',
         ],
     },
-    'images': ['static/description/02.jpg'],
+    'images': ['static/description/icon.png'],
     'icon': '/static/description/icon.png',
     'license': 'LGPL-3',
     'support': 'yogannnn@gmail.com',
