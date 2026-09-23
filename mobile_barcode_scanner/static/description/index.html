@@ -15,8 +15,25 @@
         <li>Supports both QR codes and 1D barcodes (EAN-13, Code 128, etc.).</li>
         <li>Scanned value is automatically inserted into the active text field (input or textarea).</li>
         <li>If no field is focused, the module saves the scanned code and prompts to click into any field to paste it.</li>
+        <li>Continuous autofocus support (where the browser and device allow it).</li>
+        <li>Adaptive scan area – the scanning box adjusts to the viewfinder instead of using a fixed size.</li>
+        <li>Higher camera resolution for better recognition of small barcodes.</li>
+        <li>Native BarcodeDetector support on compatible devices (e.g. Chrome on Android) for faster and more accurate decoding.</li>
+        <li>Software zoom (×2 by default) where supported, so small codes can be scanned from a comfortable distance.</li>
         <li>Uses the lightweight <a href="https://github.com/mebjas/html5-qrcode">html5-qrcode</a> library.</li>
     </ul>
+
+    <h2>What's new in 1.1</h2>
+    <ul>
+        <li>Improved recognition of small barcodes (e.g. 10 × 10 mm).</li>
+        <li>Continuous autofocus applied after the scanner starts (with graceful fallback).</li>
+        <li>Adaptive scan area (qrbox) sized relative to the viewfinder.</li>
+        <li>Request for higher camera resolution (up to 1920×1080).</li>
+        <li>Native BarcodeDetector enabled when supported (mainly Chrome on Android).</li>
+        <li>Moderate software zoom (×2) where the device allows it.</li>
+        <li>Tap-to-refocus on the video element as a fallback for devices without continuous autofocus.</li>
+    </ul>
+    <p><em>Note:</em> some features depend on browser and device support. Chrome on Android supports the most. Firefox and Opera on Android currently do not expose focus or zoom control to web pages.</p>
 
     <h2>Screenshots</h2>
     <img src="02.jpg" alt="Scanner button and scanner view" style="width:20%; max-width:200px; border:1px solid #ccc; margin-bottom:20px;"><img src="03.jpg" alt="Scanner button and scanner view" style="width:20%; max-width:200px; border:1px solid #ccc; margin-bottom:20px;"><img src="04.jpg" alt="Scanner button and scanner view" style="width:20%; max-width:200px; border:1px solid #ccc; margin-bottom:20px;"><img src="05.jpg" alt="Scanner button and scanner view" style="width:20%; max-width:200px; border:1px solid #ccc; margin-bottom:20px;"><img src="06.jpg" alt="Scanner button and scanner view" style="width:20%; max-width:200px; border:1px solid #ccc; margin-bottom:20px;"><img src="07.jpg" alt="Scanner button and scanner view" style="width:20%; max-width:200px; border:1px solid #ccc; margin-bottom:20px;">
@@ -28,6 +45,7 @@
         <li>Tap the floating camera button (bottom‑right).</li>
         <li>Grant camera permission when prompted.</li>
         <li>Point the camera at a QR or barcode.</li>
+        <li>If the code is small, hold the phone at a comfortable distance – the module will apply zoom and autofocus automatically where supported.</li>
         <li>The scanned text will appear in the previously focused field.</li>
     </ol>
 
