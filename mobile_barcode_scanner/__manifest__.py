@@ -1,9 +1,11 @@
 {
     'name': 'Mobile Barcode Scanner',
-    'version': '1.1',
+    'version': '1.0',
     'category': 'Tools',
     'summary': 'Scan barcodes and QR codes from phone camera on any page',
     'depends': ['web'],
+    'author': 'Servertronix',
+    'website': 'https://github.com/yogannnn',
     'data': [],
     'qweb': [],
     'assets': {
@@ -13,10 +15,12 @@
             'mobile_barcode_scanner/static/src/js/barcode_scanner.js',
         ],
     },
-    'images': ['static/description/02.jpg'],
+    'images': ['static/description/icon.png'],
     'icon': '/static/description/icon.png',
-    'license': 'LGPL-3',
+    'license': 'OPL-1',
     'support': 'yogannnn@gmail.com',
     'installable': True,
     'application': True,
+    'price': 39.00,
+    'currency': 'EUR',
 }
