@@ -4,8 +4,8 @@
     'category': 'Tools',
     'summary': 'Scan barcodes and QR codes from phone camera on any page',
     'depends': ['web'],
-    'author': 'Servertronix',      # ← ваше имя или название компании
-    'website': 'https://github.com/yogannnn',  # ← опциональная ссылка на профиль/сайт
+    'author': 'Servertronix',
+    'website': 'https://github.com/yogannnn',
     'data': [],
     'qweb': [],
     'assets': {
@@ -17,8 +17,10 @@
     },
     'images': ['static/description/icon.png'],
     'icon': '/static/description/icon.png',
-    'license': 'LGPL-3',
+    'license': 'OPL-1',
     'support': 'yogannnn@gmail.com',
     'installable': True,
     'application': True,
+    'price': 39.00,
+    'currency': 'EUR',
 }
